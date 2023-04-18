@@ -1,0 +1,11 @@
+a=int(input("Enter the numb"))
+b=int(input("Enter the numb"))
+c=int(input("Enter the num"))
+if a>b :
+  if a>c:
+    print(a,"is greater")
+elif a<b:
+  if b>c:
+    print(b,"is greater")
+else:
+  print(c,"is greater")
