@@ -1,0 +1,18 @@
+l,u,s,d=0,0,0,0
+password =input("Enter any password:")
+spl_ch="_@#$%^&{}()[]!"
+if(len(password)>=8):
+  for i in password:
+    if(i.isdigit == True):
+      d+=1
+    if(i.lower == True):
+       l+=1
+    if(i.upper == True):
+      u+=1
+    if i in spl_ch:
+      s+=1
+   if(l>=1 and u>=1 and s>=1 and d>=1):
+      print("Strong password")
+   else:
+      print("not strong password")
+      
