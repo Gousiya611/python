@@ -10,4 +10,4 @@ def lcm(a,b):
             lcm=min
         min+=1
     return lcm
-print(lcm())
+print(lcm(10,20))
